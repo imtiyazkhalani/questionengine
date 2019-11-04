@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="5dp"
+    android:scrollbars="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_question_lable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="5dp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:paddingRight="5dp"
+            android:text="Quetions 10 /15"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:id="@+id/tv_question_text"
+            android:minLines="3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rbtn_off"
+            android:gravity="center"
+            android:layout_toRightOf="@+id/tv_question_lable"
+            android:text="Sample Questions"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black" />
+
+
+        <RadioGroup
+            android:id="@+id/rg_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_question_text"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toRightOf="@+id/tv_question_lable"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbtn_option1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sample Answer"
+                style="@style/style_rbtn_answer" />
+
+            <RadioButton
+                style="@style/style_rbtn_answer"
+                android:id="@+id/rbtn_option2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+                android:text="Sample Answer" />
+
+            <RadioButton
+                style="@style/style_rbtn_answer"
+                android:id="@+id/rbtn_option3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+
+                android:text="Sample Answer" />
+
+            <RadioButton
+                style="@style/style_rbtn_answer"
+                android:id="@+id/rbtn_option4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rbtn_selector"
+                android:button="@null"
+
+                android:text="Sample Answer" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>

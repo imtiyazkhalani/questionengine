@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sample</string>
+    <string name="notification_alerts">Notification Alerts</string>
+    <string name="easy_payments">Easy Payments</string>
+    <string name="money_records">Money Records</string>
+    <string name="lorem_ipsum">Lorm ipsum is simply dummy text of the printing and type setting industry.</string>
+    <string name="get_prev">Previous</string>
+    <string name="get_next">Next</string>
+    <string name="get_finsihed">Finish</string>
+    <string name="text_question_lable">Q :</string>
+    <string name="text_answer_lable">Options :</string>
+    <string name="no_options_question_text">You do not have any option for this question LOL :( </string>
+    <string name="exit_message">Please click BACK again to exit</string>
+
+
+</resources>
