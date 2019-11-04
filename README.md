@@ -20,12 +20,12 @@ Sample JSON Object
                 "question": "Question 2",
                 "options":
                  [
-                            "Option1,
-                            "Option2",
-                            "Options3",
-                            "Options4"
+                            "Option 1",
+                            "Option 2",
+                            "Option 3",
+                            "Option 4"
                  ],
-                 "answer": "Huston Rocket"
+                 "answer": "Option 2"
             }
     ]
 }
